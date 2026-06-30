@@ -1,0 +1,6 @@
+{
+  "name": "BioLens AI",
+  "description": "Professional-grade food barcode scanner, ingredient analyzer, and toxicology evaluation tool.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
