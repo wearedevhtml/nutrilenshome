@@ -253,22 +253,22 @@ export default function App() {
             <div className="relative flex items-center justify-center shrink-0">
               <CloverLogo size={44} showBackground={true} />
             </div>
-            <div className="flex flex-col md:flex-row md:items-center gap-1 md:gap-3.5 shrink-0">
+            <div className="flex flex-col md:flex-row md:items-center gap-1.5 md:gap-3.5 shrink-0">
               {/* Brand Title Row */}
-              <div className="flex items-baseline gap-1 sm:gap-1.5 shrink-0">
+              <div className="flex items-baseline gap-1 sm:gap-1.5 shrink-0 whitespace-nowrap">
                 <span className="font-display font-black text-xl sm:text-2xl md:text-3xl tracking-tight text-stone-950 leading-none">
                   BioLens
                 </span>
-                <span className="font-sans text-[11px] sm:text-xs md:text-lg text-[#026854] tracking-tight flex items-center gap-0.5 sm:gap-1 leading-none">
+                <span className="font-sans text-[11px] sm:text-xs md:text-lg text-[#026854] tracking-tight flex items-center gap-0.5 sm:gap-1 leading-none whitespace-nowrap">
                   <span className="font-light text-stone-500">by</span>
                   <span className="font-bold">ZettaCreations</span>
                 </span>
               </div>
               
               {/* Premium Scanner Badge */}
-              <div className="inline-flex items-center gap-1 px-2 py-0.5 md:px-2.5 md:py-1 bg-[#eefdf5] border border-emerald-100 rounded-full text-[#026854] font-sans font-bold text-[8px] sm:text-[9px] md:text-xs uppercase tracking-wider w-fit shrink-0">
+              <div className="inline-flex items-center gap-1 px-2 py-0.5 md:px-2.5 md:py-1 bg-[#eefdf5] border border-emerald-100 rounded-full text-[#026854] font-sans font-bold text-[8px] sm:text-[9px] md:text-xs uppercase tracking-wider w-fit shrink-0 whitespace-nowrap">
                 <Leaf className="w-2.5 h-2.5 md:w-3.5 md:h-3.5 text-emerald-600 fill-emerald-100/20 shrink-0" />
-                <span>BIOLENS PREMIUM FOOD SCANNER</span>
+                <span className="whitespace-nowrap">BIOLENS PREMIUM FOOD SCANNER</span>
               </div>
             </div>
           </div>
