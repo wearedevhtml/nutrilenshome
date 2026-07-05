@@ -12,7 +12,7 @@ const env = (import.meta as any).env || {};
 
 export const APP_CONFIG = {
   // Web application live mirror URL
-  WEB_URL: env.VITE_WEB_URL || 'https://aistudio.google.com/applet-auth-bridge?applet_id=c6f0a778-7d2c-4bb8-87e9-c5c57481b656&return_url=https%3A%2F%2Fnutrilensapp.pages.dev',
+  WEB_URL: env.VITE_WEB_URL || 'nutrilenshome.page.dev',
 
   // Android APK direct download link
   APK_DOWNLOAD_URL: env.VITE_APK_DOWNLOAD_URL || 'https://drive.usercontent.google.com/u/0/uc?id=1iOdYYVPv4G5i-Y17P7HHnemKj-zyidTZ&export=download'
