@@ -1,7 +1,0 @@
-# Cloudflare Pages configuration
-name = "biolens"
-pages_build_output_dir = "dist"
-
-[vars]
-# You can add public non-sensitive variables here if needed
-ENV = "production"

@@ -1,6 +1,6 @@
 {
-  "name": "BioLens AI",
-  "description": "Professional-grade food barcode scanner, ingredient analyzer, and toxicology evaluation tool.",
-  "requestFramePermissions": ["camera"],
+  "name": "NutriLens AI",
+  "description": "Official homepage for NutriLens AI by ZettaCreations, a professional-grade food ingredients scanner, chemical ingredient analyzer, and toxicology evaluator. Download the APK or access the web app.",
+  "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
