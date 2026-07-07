@@ -24,5 +24,5 @@ export const APP_CONFIG = {
   WEB_URL: formatUrl(env.VITE_WEB_URL || 'nutrilensapp.pages.dev'),
 
   // Android APK direct download link
-  APK_DOWNLOAD_URL: formatUrl(env.VITE_APK_DOWNLOAD_URL || 'https://drive.usercontent.google.com/u/0/uc?id=1iOdYYVPv4G5i-Y17P7HHnemKj-zyidTZ&export=download')
+  APK_DOWNLOAD_URL: formatUrl(env.VITE_APK_DOWNLOAD_URL || 'https://drive.usercontent.google.com/download?id=1b2Jl5OVHDvZ2ZjRqD952TTYr_061AI8X&export=download')
 };
